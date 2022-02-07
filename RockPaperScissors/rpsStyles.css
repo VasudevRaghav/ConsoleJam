@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+.gameBoard{
+    width: 70vw;
+    height: 80vh;
+    background-color: aquamarine;
+}
+.scoreBoard{
+    width: 30vw;
+    height: 80vh;
+    background-color: brown;
+}
+.aiRoll{
+    position: relative;
+    width: 30vw;
+    height: 120px;
+    background-color: azure;
+    border: 3px solid black;
+    border-radius: 5px;
+    transform: translate(20vw,20vh);
+}
