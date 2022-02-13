@@ -1,6 +1,12 @@
 html, body{
     margin: 0;
 }
+header{
+    background-color: black;
+}
+nav{
+    display: flex;
+}
 main{
     display: flex;
     flex-direction: row;
