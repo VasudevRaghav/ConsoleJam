@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="rpsStyles.css">
-    <script src="rpsScript.js"></script>
+    <script src="rpsScript.js" defer></script>
 </head>
 <body>
     <header>
@@ -17,27 +17,61 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Rules</a></li>
                 <li><a href="#">Games</a></li>
-                <li><a href="#">Login</a></li>
+                <li><a href="#">Profile</a></li>
                 
             </ul>
         </nav>
     </header>
     <main>
         <div class="gameBoard">
-            <div class="aiRoll">
+            <div id="ruleSvg">
                 
             </div>
+            <div class="aiRoll">
+                <div class="rollImg" id="img1">
+                <img src="Rock.png" alt="rock">
+                </div>
+                <div class="rollImg" id="img2">
+                <img src="Paper.png" alt="paper">
+                </div>
+                <div class="rollImg" id="img3">
+                <img src="Scissors.png" alt="scissors">
+                </div>
+            </div>
             <div class="playerRoll">
-
+                <div class="PlayerChoice" id="playerChoiceRock">
+                    <img src="Rock.png" alt="Rock Button">
+                </div>
+                <div class="PlayerChoice" id="playerChoicePaper">
+                    <img src="Paper.png" alt="Paper Button">
+                </div>
+                <div class="PlayerChoice" id="playerChoiceScissors">
+                    <img src="Scissors.png" alt="Scissors Button">
+                </div>
+                <div class="playerStart">
+                    <button id="startBtn">Start</button>
+                </div>
             </div>
         </div>
         <div class="scoreBoard">
-            <div class="score">
-                <div class="aiBoard">
-
+            <div class="currentMatchScore">Current Match</div>
+            <div class="scoreCurrent">
+                <div id="aiBoard">
+                    0
                 </div>
-                <div class="playerBoard">
-
+                <div style="font-size:x-large;">:</div>
+                <div id="playerBoard">
+                    0
+                </div>
+            </div>
+            <div class="allTimeBest">All Time Best</div>
+            <div class="scoreBest">
+                <div id="aiBoardBest">
+                    0
+                </div>
+                <div style="font-size:x-large;">:</div>
+                <div id="playerBoardBest">
+                    0
                 </div>
             </div>
         </div>
