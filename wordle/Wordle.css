@@ -2,6 +2,7 @@
 *{
     margin:0;
     padding:0;
+    color: ghostwhite;
 }
 html,body{
   height:100%;
@@ -11,4 +12,24 @@ html,body{
 h1{
     display: flex;
     justify-content: center;
+}
+#gameBoard{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50%;
+    width: 100%;
+    flex-direction: column;
+}
+#row1,#row2,#row3,#row4,#row5,#row6{
+    display: flex;
+    justify-content: space-evenly;
+    width: 25%;
+}
+#row1>div,#row2>div,#row3>div,#row4>div,#row5>div,#row6>div{
+    border:2px solid grey;
+    border-radius:2px;
+    width:3.5vw;
+    height:3.5vw;
+    background:white;
 }
