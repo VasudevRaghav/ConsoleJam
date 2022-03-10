@@ -95,20 +95,24 @@ main{
     transform: translate(36.25vw,65vh);
 }
 .playerStart>button{
-    width: 90px;
-    height: 40px;
-    font-size: 35px;
+    width: 9vw;
+    height: 10vh;
+    font-size: 30px;
     text-align: center;
     background-color: cyan;
     border-radius: 10px;
+    padding:10px;
+    font-family: cursive;
+    position: relative;
 }
 .playerStart>button:hover{
-    width: 90px;
-    height: 40px;
-    font-size: 35px;
+    width: 9vw;
+    height: 10vh;
+    font-size: 30px;
     text-align: center;
     background-color: rgb(2, 224, 224);
     border-radius: 10px;
+
 }
 .currentMatchScore,.scoreCurrent,.allTimeBest,.scoreBest{
     display: flex;
@@ -167,7 +171,6 @@ main{
     animation: roller 3s 2s infinite ease-in-out;
     z-index: 5;
 }
-
 @keyframes roller{
     0%{
     left: -50px;
