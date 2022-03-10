@@ -173,11 +173,11 @@ main{
 }
 @keyframes roller{
     0%{
-    left: -50px;
+    left: -40px;
     transform: rotateY(-85deg);
     }
     100%{
-    left: 320px;
+    left: 358px;
     transform: rotateY(85deg); 
     }
 }

@@ -84,22 +84,3 @@ h1{
 .Game-keyboard-button-wide:nth-child(2){
     margin-left: 2px;
 }
-#w{
-    animation: keyAppear 5s 0s ease-in-out infinite;    
-}
-#o{
-    animation: keyAppear 5s 1s ease-in-out infinite;    
-}
-#r{
-    animation: keyAppear 5s 2s ease-in-out infinite;    
-}
-#l{
-    animation: keyAppear 5s 3s ease-in-out infinite;    
-}
-#d{
-    animation: keyAppear 5s 4s ease-in-out infinite;    
-}
-@keyframes keyAppear{
-    0%{visibility: hidden;}
-    100%{visibility: visible;}
-}
